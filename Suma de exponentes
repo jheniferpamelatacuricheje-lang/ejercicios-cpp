@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+
+    int n, cantidad;
+    double suma = 0;
+    cin >> n >> cantidad;
+    for(int i = 1; i <= cantidad; i++) {
+       suma += pow(i, n);
+    }
+    cout << suma;
+    return 0;
+}
