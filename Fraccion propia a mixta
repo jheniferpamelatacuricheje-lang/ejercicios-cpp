@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A, B;
+
+    cin >> A >> B;
+
+    if (A < B) {
+        cout << "error";
+    } else {
+        int entero = A / B;
+        int residuo = A % B;
+
+        cout << entero << " " << residuo << "/" << B;
+    }
+
+    return 0;
+}
