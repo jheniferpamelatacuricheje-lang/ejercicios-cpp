@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    int A, B, C;
+    cin >> A >> B >> C;
+    int distA = abs(C - A);
+    int distB = abs(C - B);
+    if (distA < distB) {
+        cout << "gato A";
+    } 
+    else if (distB < distA) {
+        cout << "gato B";
+    } 
+    else {
+        cout << "raton C";
+    }
+    return 0;
+}
