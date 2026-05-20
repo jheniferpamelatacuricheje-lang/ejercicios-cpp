@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int edad;
+    if (cin >> edad) {
+        cout << (edad >= 18 ? "Mayor de edad\n" : "Menor de edad\n");
+    }
+    return 0;
+}
